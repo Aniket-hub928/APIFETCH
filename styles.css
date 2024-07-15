@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    width: 48%; /* Adjust width to your preference */
+  }
+  
+  .posts-container, .todos-container {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 400px; /* Set a fixed height to limit overflow */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+  }
+  
+  .post {
+    margin-bottom: 10px;
+  }
+  
+  .todo {
+    margin-bottom: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
